@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../Imagenes/historia.png');
+    overflow-y: scroll;
+    overflow-x:hidden ;
+    background-repeat: no-repeat;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: pink;
+    border-radius: 20px;
+    border: 2px solid pink;
+}
+.parrafos,.t1{
+    display: flex;
+    justify-content: center;
+}
+p,.t1,.t2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 18px;
+}
+.p1{
+    margin-top: 180px;
+}
+.t1,.t2{
+    position:absolute;
+    top: 380px;
+    font-size: 25px;
+}
+.p2{
+    position: absolute;
+    top: 460px;
+}
+.t2{
+    top: 970px;
+}
+.p3{
+    position: absolute;
+    top: 1070px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.inicio,.recorrido{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    border: 2px solid #009DB4;
+    font-family: PixelatedPusab;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.recorrido{
+    left: 250px
+}
+.flecha{
+    position: absolute;
+    top: 1550px;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.subir{
+    position: absolute;
+    top: 80px;
+    background-color: #009DB4;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-caret-up{
+    color: white;
+}
+

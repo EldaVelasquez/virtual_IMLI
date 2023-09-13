@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    overflow: hidden;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.historia,.recorrido{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    border: 2px solid #009DB4;
+    font-family: PixelatedPusab;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.recorrido{
+    top: 50px;
+    left: 250px;
+}
+
