@@ -4,60 +4,64 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('../Imagenes/historia.png');
+    background-image: url('../Imagenes/3.png');
     overflow-y: scroll;
     overflow-x:hidden ;
     background-repeat: no-repeat;
+    position: relative;
 }
-body::-webkit-scrollbar-thumb {
-    background-color: pink;
-    border-radius: 20px;
-    border: 2px solid pink;
+.parrafos{
+    width: 80vw;
+    position: absolute;
+    left: 10%;
+    top: 185px;
 }
 .parrafos,.t1{
     display: flex;
     justify-content: center;
 }
-p,.t1,.t2{
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
+.parrafo{
+    font-family: HKCarta-Regular;
     line-height: 2;
-    font-size: 18px;
-}
-.p1{
-    margin-top: 180px;
+    font-size: 21px;
+    color: white;
+    text-align: justify;
 }
 .t1,.t2{
     position:absolute;
-    top: 380px;
-    font-size: 25px;
+    top: 235px;
+    font-size: 28px;
+}
+.par{
+    position: absolute;
 }
 .p2{
-    position: absolute;
-    top: 460px;
+    top: 315px;
 }
 .t2{
-    top: 970px;
+    top: 980px;
 }
 .p3{
-    position: absolute;
-    top: 1070px;
+    top: 1060px;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
-.inicio,.recorrido{
+.btn:hover{
+    box-shadow: 0px 0px 10px 5px #1052b4;
+}
+.btn{
     width: 150px;
     height: 50px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #011027;
     position: absolute;
     top: 50px;
     left: 60px;
-    border: 2px solid #009DB4;
-    font-family: PixelatedPusab;
-    font-size: 25px;
+    box-shadow: 0px 0px 10px 5px #1f217c inset;
+    font-family: HKCarta-Bold;
+    font-size: 22px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +71,7 @@ a{
 }
 .flecha{
     position: absolute;
-    top: 1550px;
+    top: 1850px;
     width: 100vw;
     height: 200px;
     display: flex;
@@ -76,7 +80,7 @@ a{
 .subir{
     position: absolute;
     top: 80px;
-    background-color: #009DB4;
+    background-color: #ffffff;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -85,6 +89,6 @@ a{
     justify-content: center;
 }
 .fa-caret-up{
-    color: white;
+    color: #000918;
 }
 

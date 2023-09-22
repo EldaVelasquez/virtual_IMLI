@@ -4,31 +4,31 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url(../../Imagenes/Otras/fondos/laboratorios.png);
     overflow-x: hidden;
     position: relative;
 }
-.video{
-    width: 100vw;
-    height: 100vh;
-}
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
-.historia,.inicio,.menu{
+.btn{
     width: 150px;
     height: 50px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #011027;
     position: absolute;
     top: 50px;
     left: 40px;
-    border: 2px solid #009DB4;
-    font-family: PixelatedPusab;
-    font-size: 25px;
+    box-shadow: 0px 0px 10px 5px #1f217c inset;
+    font-family: HKCarta-Bold;
+    font-size: 22px;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px 5px #1052b4;
 }
 .inicio{
     left: 200px;
@@ -38,7 +38,7 @@ a{
 }
 .flecha{
     position: absolute;
-    top: 990px;
+    top: 1850px;
     width: 100vw;
     height: 200px;
     display: flex;
@@ -47,7 +47,7 @@ a{
 .subir{
     position: absolute;
     top: 80px;
-    background-color: #009DB4;
+    background-color: #ffffff;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -56,14 +56,15 @@ a{
     justify-content: center;
 }
 .fa-caret-up{
-    color: white;
+    color: #000918;
 }
 .p1{
     position: absolute;
-    top: 860px;
-    left: 55%;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: bold;
+    top: 910px;
+    left: 23%;
+    font-family: HKCarta-Regular;
     line-height: 2;
     font-size: 30px;
+    color: #ffffff;
+    text-align: center;
 }

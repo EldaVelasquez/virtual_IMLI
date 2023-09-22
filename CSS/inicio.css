@@ -3,28 +3,25 @@
     padding:0px;
     box-sizing: border-box;
 }
-.video{
-    width: 100vw;
-    height: 100vh;
-}
 body{
+    background-image: url(../Imagenes/1.png);
     overflow: hidden;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .historia,.recorrido{
     width: 150px;
     height: 50px;
     border-radius: 5px;
-    background-color: white;
+    background-color: #011027;
     position: absolute;
     top: 50px;
     left: 60px;
-    border: 2px solid #009DB4;
-    font-family: PixelatedPusab;
-    font-size: 25px;
+    box-shadow: 0px 0px 10px 5px #1f217c inset;
+    font-family: HKCarta-Bold;
+    font-size: 22px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -33,4 +30,6 @@ a{
     top: 50px;
     left: 250px;
 }
-
+.historia:hover,.recorrido:hover{
+    box-shadow: 0px 0px 10px 5px #1052b4;
+}
